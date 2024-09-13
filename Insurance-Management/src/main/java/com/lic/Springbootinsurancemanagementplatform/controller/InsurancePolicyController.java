@@ -30,7 +30,7 @@ public class InsurancePolicyController {
 	}	
 	
 	// getByInsurancePolicyId-------------------------------------------------------------------------------
-	@GetMapping("/getByInsurancePolicyId/{insurancePolicyId}")
+	@GetMapping("/getByPolicyId/{insurancePolicyId}")
 	public ResponseStructure<InsurancePolicy> getByInsurancePolicyId(@PathVariable int insurancePolicyId) {
 		return insurancePolicyService.getByInsurancePolicyId(insurancePolicyId);
 	}	

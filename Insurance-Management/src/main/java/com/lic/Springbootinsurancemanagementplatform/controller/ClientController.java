@@ -30,7 +30,7 @@ public class ClientController {
 	}
 	
 	// getByClientId---------------------------------------------------------------------------------------
-	@GetMapping("/getClientById/{clientId}")
+	@GetMapping("/getByClientId/{clientId}")
 	public ResponseStructure<Client> getClientById(@PathVariable int clientId) {
 		return clientService.getClientById(clientId);
 	}
