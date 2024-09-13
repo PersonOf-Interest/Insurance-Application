@@ -17,7 +17,7 @@ import com.lic.Springbootinsurancemanagementplatform.dto.ResponseStructure;
 import com.lic.Springbootinsurancemanagementplatform.service.ClientService;
 
 @RestController
-@RequestMapping("/insurance")
+@RequestMapping("/insuranceAPI")
 public class ClientController {
 
 	@Autowired
