@@ -17,7 +17,7 @@ import com.lic.Springbootinsurancemanagementplatform.dto.ResponseStructure;
 import com.lic.Springbootinsurancemanagementplatform.service.ClaimService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/insurance")
 public class ClaimController {
 
 	@Autowired
