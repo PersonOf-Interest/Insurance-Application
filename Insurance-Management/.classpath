@@ -48,5 +48,14 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hp/.m2/repository/org/springframework/kafka/spring-kafka/3.2.2/spring-kafka-3.2.2.jar" sourcepath="C:/Users/hp/.m2/repository/org/springframework/kafka/spring-kafka/3.2.2/spring-kafka-3.2.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework.kafka"/>
+			<attribute name="maven.artifactId" value="spring-kafka"/>
+			<attribute name="maven.version" value="3.2.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
