@@ -9,7 +9,7 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
     @Bean
-    public NewTopic claimEventsTopic() {
+    NewTopic claimEventsTopic() {
         return TopicBuilder.name("claim.events")
                 .partitions(3)
                 .replicas(1)
@@ -17,7 +17,7 @@ public class KafkaTopicConfig {
     }
 
     @Bean
-    public NewTopic policyEventsTopic() {
+    NewTopic policyEventsTopic() {
         return TopicBuilder.name("client.events")
                 .partitions(3)
                 .replicas(1)
@@ -25,7 +25,7 @@ public class KafkaTopicConfig {
     }
 
     @Bean
-    public NewTopic fraudAlertsTopic() {
+    NewTopic fraudAlertsTopic() {
         return TopicBuilder.name("insurancepolicy.alerts")
                 .partitions(3)
                 .replicas(1)
